@@ -1,0 +1,4 @@
+1,Lacteos,-
+2,Perecibles,caduca
+3,Atun,-
+4,Maruchan,da cancer
