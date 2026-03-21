@@ -1,0 +1,21 @@
+{
+  "folio": "FOLIO002",
+  "fecha": "20/03/2026 21:59:10",
+  "productos": [
+    {
+      "cantidad": 10,
+      "nombre": "Maruchan",
+      "precioUnitario": 16.0,
+      "subtotal": 160.0
+    },
+    {
+      "cantidad": 2,
+      "nombre": "CocaCola 3L",
+      "precioUnitario": 50.0,
+      "subtotal": 100.0
+    }
+  ],
+  "subtotal": 260.0,
+  "iva": 41.6,
+  "total": 301.6
+}

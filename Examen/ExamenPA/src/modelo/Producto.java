@@ -1,6 +1,6 @@
 package modelo;
 
-public class Producto {
+public abstract class Producto {
 	private String id;
 	private String nombre;
 	private String descripcion;
@@ -9,9 +9,11 @@ public class Producto {
 	private double precioVenta;
 	private int stock;
 	private boolean activo;
+	
+	private String rutaImagen; 
 
 	public Producto(String id, String nombre, String descripcion, String categoria, double precioCompra,
-			double precioVenta, int stock, boolean activo) {
+			double precioVenta, int stock, boolean activo, String rutaImagen) {
 		this.id = id;
 		this.nombre = nombre;
 		this.descripcion = descripcion;
@@ -20,6 +22,7 @@ public class Producto {
 		this.precioVenta = precioVenta;
 		this.stock = stock;
 		this.activo = activo;
+		this.rutaImagen = rutaImagen;
 	}
 
 	public String getId() {
@@ -86,12 +89,20 @@ public class Producto {
 		this.activo = activo;
 	}
 
+	// 4. Agregamos Getter y Setter de la imagen
+	public String getRutaImagen() {
+		return rutaImagen;
+	}
+
+	public void setRutaImagen(String rutaImagen) {
+		this.rutaImagen = rutaImagen;
+	}
+
 	@Override
-    public String toString() {
-		//por si algun smart pone comas en la descripcion o nombre
-        String nomLimpio = nombre != null ? nombre.replace(",", " ") : "";
-        String descLimpia = descripcion != null ? descripcion.replace(",", " ") : "";
-        
-        return id + "," + nomLimpio + "," + descLimpia + "," + categoria + "," + precioCompra + "," + precioVenta + "," + stock + "," + activo;
-    }
+	public String toString() {
+		String nomLimpio = nombre != null ? nombre.replace(",", " ") : "";
+		String descLimpia = descripcion != null ? descripcion.replace(",", " ") : "";
+		
+		return id + "," + nomLimpio + "," + descLimpia + "," + categoria + "," + precioCompra + "," + precioVenta + "," + stock + "," + activo + "," + rutaImagen;
+	}
 }

@@ -11,6 +11,7 @@ public class FormularioProducto extends JInternalFrame {
     public JComboBox<String> cbCategoria;
     public JRadioButton rbActivo, rbInactivo;
     public JButton btnGuardar, btnLimpiar;
+    public JLabel lblImagenProducto;
 
     // DEL LADO DERECHO
     public JTable tablaProductos;
@@ -23,13 +24,18 @@ public class FormularioProducto extends JInternalFrame {
         setSize(1000, 600);
         setLayout(new BorderLayout());
 
-        //LADO LEFT
+        // LADO LEFT
         JPanel panelFormulario = new JPanel(new GridBagLayout());
         panelFormulario.setBorder(BorderFactory.createTitledBorder("ALTA Y EDICION"));
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.insets = new Insets(5, 5, 5, 5);
         gbc.fill = GridBagConstraints.HORIZONTAL;
         gbc.anchor = GridBagConstraints.NORTHWEST;
+
+        // INICIALIZAR COMPONENTES
+        lblImagenProducto = new JLabel("Foto", SwingConstants.CENTER);
+        lblImagenProducto.setPreferredSize(new Dimension(100, 100));
+        lblImagenProducto.setBorder(BorderFactory.createLineBorder(Color.GRAY));
 
         txtId = new JTextField(15);
         txtNombre = new JTextField(15);
@@ -38,7 +44,7 @@ public class FormularioProducto extends JInternalFrame {
         txtDescripcion.setLineWrap(true);
         JScrollPane scrollDesc = new JScrollPane(txtDescripcion);
 
-        String[] categorias = {"Abarrotes", "Lácteos", "Bebidas", "Botanas", "Limpieza", "Cuidado Personal"};
+        String[] categorias = {"Abarrotes", "Bebidas", "Lácteos y Huevo", "Frutas y Verduras", "Carnes y Pescados", "Salchichonería", "Panadería y Tortillería", "Limpieza del Hogar", "Cuidado Personal", "Snacks y Dulcería", "Mascotas"};
         cbCategoria = new JComboBox<>(categorias);
 
         txtPrecioCompra = new JTextField(15);
@@ -53,7 +59,18 @@ public class FormularioProducto extends JInternalFrame {
         panelEstado.setBorder(BorderFactory.createTitledBorder("Estado Actual"));
         panelEstado.add(rbActivo); panelEstado.add(rbInactivo);
 
+        // grid
         int fila = 0;
+
+        // centarr la foto
+        gbc.gridx = 0; gbc.gridy = fila++; gbc.gridwidth = 2; 
+        gbc.fill = GridBagConstraints.NONE; gbc.anchor = GridBagConstraints.CENTER;
+        panelFormulario.add(lblImagenProducto, gbc);
+
+        gbc.gridwidth = 1;
+        gbc.fill = GridBagConstraints.HORIZONTAL;
+        gbc.anchor = GridBagConstraints.NORTHWEST;
+
         gbc.gridx = 0; gbc.gridy = fila; panelFormulario.add(new JLabel("ID Producto:"), gbc);
         gbc.gridx = 1; gbc.gridy = fila++; panelFormulario.add(txtId, gbc);
 
@@ -85,9 +102,10 @@ public class FormularioProducto extends JInternalFrame {
         panelBotonesIzq.add(btnGuardar); panelBotonesIzq.add(btnLimpiar);
 
         gbc.gridx = 0; gbc.gridy = fila; gbc.weighty = 1.0; 
+        gbc.fill = GridBagConstraints.NONE; gbc.anchor = GridBagConstraints.NORTH;
         panelFormulario.add(panelBotonesIzq, gbc);
 
-        //LADO RIGHT
+        // LADO RIGHT
         JPanel panelDerecho = new JPanel(new BorderLayout());
         panelDerecho.setBorder(BorderFactory.createTitledBorder("CATALOGO PRODUCTOS"));
 

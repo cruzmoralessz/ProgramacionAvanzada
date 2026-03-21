@@ -1,0 +1,134 @@
+[
+  {
+    "id": "001",
+    "nombre": "Arroz",
+    "descripcion": "1kg de arroz white",
+    "categoria": "Abarrotes",
+    "precioCompra": 15.0,
+    "precioVenta": 20.0,
+    "stock": 97,
+    "activo": true,
+    "rutaImagen": "abarrotes.jpg"
+  },
+  {
+    "id": "002",
+    "nombre": "Frijol",
+    "descripcion": "1kg de frijol black",
+    "categoria": "Abarrotes",
+    "precioCompra": 10.0,
+    "precioVenta": 20.0,
+    "stock": 50,
+    "activo": true,
+    "rutaImagen": "abarrotes.jpg"
+  },
+  {
+    "id": "003",
+    "nombre": "CocaCola 3L",
+    "descripcion": "cocacola espuma",
+    "categoria": "Bebidas",
+    "precioCompra": 40.0,
+    "precioVenta": 50.0,
+    "stock": 97,
+    "activo": true,
+    "rutaImagen": "bebidas.jpg"
+  },
+  {
+    "id": "004",
+    "nombre": "NutriLeche",
+    "descripcion": "1L nutriLeche, muy infravalorada",
+    "categoria": "Lácteos y Huevo",
+    "precioCompra": 17.0,
+    "precioVenta": 23.0,
+    "stock": 100,
+    "activo": true,
+    "rutaImagen": "lacteos.jpg"
+  },
+  {
+    "id": "005",
+    "nombre": "Manzana Green",
+    "descripcion": "1kg de manzana verde muy god",
+    "categoria": "Frutas y Verduras",
+    "precioCompra": 20.0,
+    "precioVenta": 40.0,
+    "stock": 34,
+    "activo": true,
+    "rutaImagen": "frutas.jpg"
+  },
+  {
+    "id": "006",
+    "nombre": "Pez Payaso",
+    "descripcion": "dice que se llama nemo",
+    "categoria": "Carnes y Pescados",
+    "precioCompra": 30.0,
+    "precioVenta": 50.0,
+    "stock": 34,
+    "activo": true,
+    "rutaImagen": "carnes.jpg"
+  },
+  {
+    "id": "008",
+    "nombre": "Bolillo",
+    "descripcion": "para el susto",
+    "categoria": "Panadería y Tortillería",
+    "precioCompra": 2.0,
+    "precioVenta": 4.0,
+    "stock": 90,
+    "activo": true,
+    "rutaImagen": "panaderia.jpg"
+  },
+  {
+    "id": "009",
+    "nombre": "Escoba",
+    "descripcion": "para barrer",
+    "categoria": "Limpieza del Hogar",
+    "precioCompra": 35.0,
+    "precioVenta": 50.0,
+    "stock": 70,
+    "activo": true,
+    "rutaImagen": "limpieza.jpg"
+  },
+  {
+    "id": "010",
+    "nombre": "Crema Aclarante",
+    "descripcion": "me queme ppor el sol neta",
+    "categoria": "Cuidado Personal",
+    "precioCompra": 40.0,
+    "precioVenta": 45.0,
+    "stock": 55,
+    "activo": true,
+    "rutaImagen": "cuidado.jpg"
+  },
+  {
+    "id": "011",
+    "nombre": "Maruchan",
+    "descripcion": "sopa maruchan no da cancer",
+    "categoria": "Snacks y Dulcería",
+    "precioCompra": 13.0,
+    "precioVenta": 16.0,
+    "stock": 90,
+    "activo": true,
+    "rutaImagen": "snacks.jpg"
+  },
+  {
+    "id": "012",
+    "nombre": "Hueso Juguete",
+    "descripcion": "hueso blanco de juguete para mascotas",
+    "categoria": "Mascotas",
+    "precioCompra": 35.0,
+    "precioVenta": 40.0,
+    "stock": 66,
+    "activo": true,
+    "rutaImagen": "mascotas.jpg"
+  },
+  {
+    "id": "007",
+    "nombre": "Salchichon",
+    "descripcion": "es rojo",
+    "categoria": "Salchichonería",
+    "precioCompra": 20.0,
+    "precioVenta": 30.0,
+    "stock": 27,
+    "activo": true,
+    "rutaImagen": "salchichoneria.jpg"
+  }
+]

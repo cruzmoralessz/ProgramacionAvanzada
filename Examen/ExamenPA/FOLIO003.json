@@ -1,0 +1,27 @@
+{
+  "folio": "FOLIO003",
+  "fecha": "20/03/2026 21:59:26",
+  "productos": [
+    {
+      "cantidad": 1,
+      "nombre": "Pez Payaso",
+      "precioUnitario": 50.0,
+      "subtotal": 50.0
+    },
+    {
+      "cantidad": 1,
+      "nombre": "Hueso Juguete",
+      "precioUnitario": 40.0,
+      "subtotal": 40.0
+    },
+    {
+      "cantidad": 3,
+      "nombre": "Salchichon",
+      "precioUnitario": 30.0,
+      "subtotal": 90.0
+    }
+  ],
+  "subtotal": 180.0,
+  "iva": 28.8,
+  "total": 208.8
+}

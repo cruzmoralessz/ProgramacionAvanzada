@@ -15,20 +15,22 @@ public class FormularioPuntoVenta extends JInternalFrame {
     public JTextField txtSubtotal, txtIva, txtTotal;
     public JButton btnLimpiarCarrito, btnProcesarPago;
     public JLabel lblInfoTicket;
+    public JLabel lblImagenProducto;
 
     public FormularioPuntoVenta() {
         super("Punto de Venta", true, true, true, true);
         setSize(850, 550);
         setLayout(new BorderLayout());
 
-        //LADO UP
+        // LADO UP
         JPanel panelNorte = new JPanel(new BorderLayout());
         
         String fechaActual = new SimpleDateFormat("dd/MM/yyyy").format(new Date());
-        lblInfoTicket = new JLabel("  Fecha: " + fechaActual + "   |   ID Cliente/Nombre: Cajero   |   Ticket #001");
+        lblInfoTicket = new JLabel("  Fecha: " + fechaActual + "   |   Cajero   |   Ticket #001");
         lblInfoTicket.setFont(new Font("Arial", Font.BOLD, 12));
         panelNorte.add(lblInfoTicket, BorderLayout.NORTH);
 
+        //SELECCION DE PRODUCTO
         JPanel panelSeleccion = new JPanel(new GridBagLayout());
         panelSeleccion.setBorder(BorderFactory.createTitledBorder("--- SELECCION DE PRODUCTO ---"));
         GridBagConstraints gbc = new GridBagConstraints();
@@ -49,15 +51,24 @@ public class FormularioPuntoVenta extends JInternalFrame {
         panelBotonesProd.add(btnEliminar);
         gbc.gridx = 0; gbc.gridy = 1; gbc.gridwidth = 4; panelSeleccion.add(panelBotonesProd, gbc);
 
-        panelNorte.add(panelSeleccion, BorderLayout.CENTER);
+        // CUADRP DE IMG
+        lblImagenProducto = new JLabel("Sin Imagen", SwingConstants.CENTER);
+        lblImagenProducto.setPreferredSize(new Dimension(150, 150));
+        lblImagenProducto.setBorder(BorderFactory.createLineBorder(Color.GRAY));
 
-        //LADO MIDDLE, DETALLES DEL TICKET
+        JPanel panelCentroNorte = new JPanel(new BorderLayout());
+        panelCentroNorte.add(panelSeleccion, BorderLayout.CENTER);
+        panelCentroNorte.add(lblImagenProducto, BorderLayout.EAST);
+
+        panelNorte.add(panelCentroNorte, BorderLayout.CENTER);
+
+        // LADO MIDDLE osea DETALLES DEL TICKET
         modeloTicket = new DefaultTableModel(new String[]{"COD", "DESCRIP", "CANT", "P.UNIT", "TOTAL"}, 0);
         tablaTicket = new JTable(modeloTicket);
         JScrollPane scrollTicket = new JScrollPane(tablaTicket);
         scrollTicket.setBorder(BorderFactory.createTitledBorder("Detalles transaccion actual"));
 
-        //LADO DOWN, LOS TOTALES 
+        // LADO DOWN osea LOS TOTALES 
         JPanel panelSur = new JPanel(new BorderLayout());
         panelSur.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 

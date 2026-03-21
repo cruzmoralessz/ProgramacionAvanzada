@@ -31,7 +31,7 @@ public class FormularioInventario extends JInternalFrame {
 
         txtFiltroId = new JTextField(12);
         txtFiltroNombre = new JTextField(12);
-        cbFiltroTipo = new JComboBox<>(new String[]{"Todos", "Abarrotes", "Lácteos", "Bebidas", "Limpieza"});
+        cbFiltroTipo = new JComboBox<>(new String[]{"Todos", "Abarrotes", "Bebidas", "Lácteos y Huevo", "Frutas y Verduras", "Carnes y Pescados", "Salchichonería", "Panadería y Tortillería", "Limpieza del Hogar", "Cuidado Personal", "Snacks y Dulcería", "Mascotas"});
         
         rbTodos = new JRadioButton("Todos", true);
         rbDisponible = new JRadioButton("Disponible");
