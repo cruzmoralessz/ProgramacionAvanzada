@@ -1,0 +1,21 @@
+{
+  "folio": "FOLIO003",
+  "fecha": "27/03/2026 04:16:56",
+  "productos": [
+    {
+      "cantidad": 1,
+      "nombre": "Huevo San Juan 18 pz",
+      "precioUnitario": 57.6,
+      "subtotal": 57.6
+    },
+    {
+      "cantidad": 4,
+      "nombre": "Coca-Cola 600ml",
+      "precioUnitario": 17.5,
+      "subtotal": 70.0
+    }
+  ],
+  "subtotal": 127.6,
+  "iva": 20.42,
+  "total": 148.02
+}

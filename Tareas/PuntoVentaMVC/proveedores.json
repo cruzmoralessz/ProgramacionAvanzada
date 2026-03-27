@@ -1,0 +1,57 @@
+[
+  {
+    "id": "PROV001",
+    "nombre": "Bimbo S.A. de C.V.",
+    "rtn": "BIM010101AAA",
+    "telefono": "55-1234-5678",
+    "correo": "ventas@grupobimbo.com",
+    "direccion": "Av. Azcapotzalco 123, CDMX",
+    "terminosPago": "Crédito 15 días",
+    "limiteCredito": 10000.0,
+    "activo": true
+  },
+  {
+    "id": "PROV002",
+    "nombre": "Coca-Cola FEMSA",
+    "rtn": "KOF930101BB1",
+    "telefono": "55-9876-5432",
+    "correo": "pedidos@coca-cola.com.mx",
+    "direccion": "Santa Fe, CDMX",
+    "terminosPago": "Contado",
+    "limiteCredito": 0.0,
+    "activo": true
+  },
+  {
+    "id": "PROV003",
+    "nombre": "Grupo Lala",
+    "rtn": "LAL840101CC2",
+    "telefono": "871-123-4567",
+    "correo": "distribucion@grupolala.com",
+    "direccion": "Gómez Palacio, Durango",
+    "terminosPago": "Crédito 30 días",
+    "limiteCredito": 15000.0,
+    "activo": true
+  },
+  {
+    "id": "PROV004",
+    "nombre": "Sabritas S. de R.L.",
+    "rtn": "SAB700101DD3",
+    "telefono": "55-5555-4444",
+    "correo": "pedidos@pepsico.com",
+    "direccion": "Bosques de las Lomas, CDMX",
+    "terminosPago": "Contado",
+    "limiteCredito": 0.0,
+    "activo": true
+  },
+  {
+    "id": "PROV005",
+    "nombre": "Sigma Alimentos (Fud/San Rafael)",
+    "rtn": "SIG800101EE4",
+    "telefono": "81-8123-4567",
+    "correo": "ventas@sigma-alimentos.com",
+    "direccion": "San Pedro Garza García, NL",
+    "terminosPago": "Crédito 15 días",
+    "limiteCredito": 8000.0,
+    "activo": true
+  }
+]

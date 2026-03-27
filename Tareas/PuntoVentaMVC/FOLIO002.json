@@ -1,0 +1,33 @@
+{
+  "folio": "FOLIO002",
+  "fecha": "27/03/2026 04:16:41",
+  "productos": [
+    {
+      "cantidad": 5,
+      "nombre": "Cheetos Torciditos 52g",
+      "precioUnitario": 15.6,
+      "subtotal": 78.0
+    },
+    {
+      "cantidad": 3,
+      "nombre": "Jitomate Saladet",
+      "precioUnitario": 24.3,
+      "subtotal": 72.9
+    },
+    {
+      "cantidad": 2,
+      "nombre": "Limón Agrio con Semilla",
+      "precioUnitario": 35.0,
+      "subtotal": 70.0
+    },
+    {
+      "cantidad": 10,
+      "nombre": "Sopa Maruchan Pollo 64g",
+      "precioUnitario": 16.2,
+      "subtotal": 162.0
+    }
+  ],
+  "subtotal": 382.9,
+  "iva": 61.26,
+  "total": 444.16
+}

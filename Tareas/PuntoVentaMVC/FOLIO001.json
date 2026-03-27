@@ -1,0 +1,39 @@
+{
+  "folio": "FOLIO001",
+  "fecha": "27/03/2026 04:16:09",
+  "productos": [
+    {
+      "cantidad": 10,
+      "nombre": "Arroz Verde Valle 1kg",
+      "precioUnitario": 35.0,
+      "subtotal": 350.0
+    },
+    {
+      "cantidad": 2,
+      "nombre": "Frijol Pinto Verde Valle 900g",
+      "precioUnitario": 40.0,
+      "subtotal": 80.0
+    },
+    {
+      "cantidad": 1,
+      "nombre": "Leche Entera Lala 1L",
+      "precioUnitario": 25.3,
+      "subtotal": 25.3
+    },
+    {
+      "cantidad": 2,
+      "nombre": "Mantequilla Iberia 90g",
+      "precioUnitario": 19.5,
+      "subtotal": 39.0
+    },
+    {
+      "cantidad": 1,
+      "nombre": "Papas Sabritas Sal 42g",
+      "precioUnitario": 16.9,
+      "subtotal": 16.9
+    }
+  ],
+  "subtotal": 511.2,
+  "iva": 81.79,
+  "total": 592.99
+}

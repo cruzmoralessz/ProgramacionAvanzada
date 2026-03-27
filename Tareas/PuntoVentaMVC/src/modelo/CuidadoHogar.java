@@ -1,0 +1,10 @@
+package modelo;
+
+public class CuidadoHogar extends Producto {
+	public CuidadoHogar(String id, String nombre, String descripcion, double precioCompra,
+			double porcentajeGanancia, int cantidadAlmacen, String unidadMedida, boolean activo) {
+		
+		super(id, nombre, descripcion, "Cuidado del Hogar", precioCompra, porcentajeGanancia, 
+			  cantidadAlmacen, unidadMedida, activo, "imagenes/" + id + ".jpg");
+	}
+}
