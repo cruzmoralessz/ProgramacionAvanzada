@@ -1,0 +1,106 @@
+[
+  {
+    "id": "ARQUITECTURADECOMPUTADORAS_I",
+    "asignatura": "ARQUITECTURA DE COMPUTADORAS",
+    "profesor": "CASTAN ROCHA EMILIO",
+    "grupo": "I   ",
+    "periodo": "Ene - Junio 2026",
+    "atributoEgreso": "le sabe?",
+    "criterioDesempeno": "que le sepa",
+    "indicador": "que sea bien aca",
+    "criteriosInstrumento": [
+      {
+        "aspecto": "FUNCIONALIDAD",
+        "calificacion": 9,
+        "observaciones": "faltan funcionalidades"
+      },
+      {
+        "aspecto": "DISEÑO",
+        "calificacion": 8,
+        "observaciones": "muy robusto"
+      },
+      {
+        "aspecto": "DOCUMENTACION",
+        "calificacion": 10,
+        "observaciones": "completa"
+      },
+      {
+        "aspecto": "CUMPLIMIENTO DE REQUISITOS",
+        "calificacion": 9,
+        "observaciones": "casi cumple con todos"
+      },
+      {
+        "aspecto": "TIEMPO DE ENTREGA",
+        "calificacion": 10,
+        "observaciones": "completo"
+      },
+      {
+        "aspecto": "INNOVADOR",
+        "calificacion": 8,
+        "observaciones": "muy comun"
+      }
+    ],
+    "criteriosRubrica": [
+      {
+        "aspecto": "CONOCIMIENTO TEMAS",
+        "excelente": "conoce todo",
+        "bueno": "conoce casi todo",
+        "regular": "no conoce mucho",
+        "noAlcanza": "nada, es malo"
+      },
+      {
+        "aspecto": "CUMPLIMIENTO",
+        "excelente": "cumple con todo",
+        "bueno": "cumple con casi todo",
+        "regular": "casi no cumple",
+        "noAlcanza": "nothing"
+      },
+      {
+        "aspecto": "EJECUCION EN TIEMPO REAL",
+        "excelente": "ejecuta bien",
+        "bueno": "ejecuta mas o menos",
+        "regular": "casi no ejecuta",
+        "noAlcanza": "nao nao, malo"
+      },
+      {
+        "aspecto": "NOSE",
+        "excelente": "nose bien",
+        "bueno": "nose masomenos",
+        "regular": "casi nose",
+        "noAlcanza": "naaada"
+      }
+    ],
+    "equipos": [
+      {
+        "matricula": "2213332147",
+        "nombre": "CHONG ALVAREZ ANGEL IVALDI",
+        "calificacionRubrica": 10
+      },
+      {
+        "matricula": "2213339022",
+        "nombre": "FARRERA RAMIREZ CAROLINA",
+        "calificacionRubrica": 9
+      },
+      {
+        "matricula": "2183266030",
+        "nombre": "FERNANDEZ ARRAZOLA SOFIA MARIANA",
+        "calificacionRubrica": 6
+      },
+      {
+        "matricula": "2213332161",
+        "nombre": "GARCIA SALAS YAHIR MISAEL",
+        "calificacionRubrica": 8
+      },
+      {
+        "matricula": "2183330135",
+        "nombre": "GONZALEZ SANTIAGO JOSE ALONSO",
+        "calificacionRubrica": 5
+      },
+      {
+        "matricula": "2203330135",
+        "nombre": "GRANADOS GALLEGOS CARLO SEBASTIAN",
+        "calificacionRubrica": 10
+      }
+    ]
+  }
+]
